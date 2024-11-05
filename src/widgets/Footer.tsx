@@ -1,8 +1,6 @@
 import { FC } from "react";
 
-interface FooterProps {}
-
-const Footer: FC<FooterProps> = () => {
+const Footer: FC = () => {
   return <footer className="mt-auto p-5 text-center">Made with ❤️ by Mykola Semenyuk. All rights reserved.</footer>;
 };
 
