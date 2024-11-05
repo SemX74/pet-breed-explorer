@@ -1,8 +1,6 @@
 import { FC } from "react";
 
-interface LoadingPageProps {}
-
-const LoadingPage: FC<LoadingPageProps> = () => {
+const LoadingPage: FC = () => {
   return <span className="text-3xl m-auto">Loading...</span>;
 };
 
