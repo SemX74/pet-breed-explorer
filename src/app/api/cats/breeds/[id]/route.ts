@@ -1,8 +1,7 @@
 import { catsApiRequest } from "@/features/api/requests/cats-api-request";
-import { NextResponse } from "next/server";
 
 export async function GET(
-  _: NextResponse,
+  _: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
   const id = (await params).id;
