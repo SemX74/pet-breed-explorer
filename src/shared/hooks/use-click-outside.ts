@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef } from "react";
 
 const DEFAULT_EVENTS = ["mousedown", "touchstart"];
