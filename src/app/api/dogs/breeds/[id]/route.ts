@@ -1,8 +1,7 @@
 import { dogsApiRequest } from "@/features/api/requests/dogs-api-request";
-import { NextResponse } from "next/server";
 
 export async function GET(
-  _: NextResponse,
+  _: Request,
   { params }: { params: Promise<{ id: string }> }
 ) {
   const id = (await params).id;
